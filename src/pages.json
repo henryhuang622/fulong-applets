@@ -1,0 +1,141 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/store/index",
+			"style": {
+				"navigationBarTitleText": "门店",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/storeDetail/index",
+			"style": {
+				"navigationBarTitleText": "门店详情"
+			}
+		},
+		{
+			"path": "pages/material/index",
+			"style": {
+				"navigationBarTitleText": "酒款素材",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/materialShow/index"
+		},
+		{
+			"path": "pages/comDetail/index",
+			"style": {
+				"navigationBarTitleText": "酒款介绍"
+			}
+		},{
+			"path": "pages/searchPage/index",
+			"style": {
+				"navigationBarTitleText": "查酒",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "查酒",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/authorize/index",
+			"style": {
+				"navigationBarTitleText": "授权"
+			}
+		},
+		{
+			"path": "pages/about/index",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/recommendedWine/index",
+			"style": {
+				"navigationBarTitleText": "推荐酒款",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/wineCollection/index",
+			"style": {
+				"navigationBarTitleText": "酒款收藏",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/collect/index",
+			"style": {
+				"navigationBarTitleText": "门店收藏",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/footprint/index",
+			"style": {
+				"navigationBarTitleText": "历史足迹",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/personal/index",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/link/index"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "富隆酒业",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"selectedColor": "#7B1736",
+		"list": [
+			{
+				"pagePath": "pages/home/index",
+				"iconPath": "static/icon/tabbar/icon_fengcai.png",
+				"selectedIconPath": "static/icon/tabbar/icon_fengcai_active.png",
+				"text": "风采"
+			},
+			{
+				"pagePath": "pages/store/index",
+				"iconPath": "static/icon/tabbar/icon_store.png",
+				"selectedIconPath": "static/icon/tabbar/icon_store_active.png",
+				"text": "门店"
+			},
+			{
+				"pagePath": "pages/searchPage/index",
+				"iconPath": "static/icon/tabbar/icon_search.png",
+				"selectedIconPath": "static/icon/tabbar/icon_search_active.png",
+				"text": "查酒"
+			},
+			{
+				"pagePath": "pages/personal/index",
+				"iconPath": "static/icon/tabbar/icon_personal.png",
+				"selectedIconPath": "static/icon/tabbar/icon_personal_active.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,39 @@
+// 超过n行显示省略号
+@mixin omit-css($num) {
+   overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: $num;
+   -webkit-box-orient: vertical;
+ }
+
+ // 弹性布局
+@mixin flex($row,$colum) {
+  display: flex;
+  justify-content: $row;
+  align-items: $colum;
+}
+
+
+// 超过一行省略
+%omit-1-css {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/*
+   适配iPhone底部美人尖
+   constant: 兼容 IOS<11.2
+   env: 兼容 IOS>11.2
+*/
+%safe-area-inset-padding-bottom {
+  padding-bottom: constant(safe-area-inset-bottom);
+  padding-bottom: env(safe-area-inset-bottom);
+
+}
+
+%safe-area-inset-margin-bottom {
+  margin-bottom: constant(safe-area-inset-bottom);
+  margin-bottom: env(safe-area-inset-bottom);
+}
